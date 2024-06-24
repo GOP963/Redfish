@@ -8,26 +8,6 @@ bold = "\033[1m"
 enbold = "\033[0m"
 
 
-try:
-    from fuzzywuzzy import fuzz
-except:
-    print(color.LIGHTYELLOW_EX+"no (module) pip install fuzzywuzzy ")
-try:
-    from googlesearch import search
-except:
-    print(color.LIGHTYELLOW_EX+"no (module) pip install googlesearch")
-try:
-    from bs4 import BeautifulSoup
-except:
-    print(color.LIGHTYELLOW_EX+"no (module) pip install bs4")
-try:
-    from requests import get
-except:
-    print(color.LIGHTYELLOW_EX+"no (module) pip install requests")
-try:
-    from colorama import Fore as color
-except:
-    print(color.LIGHTYELLOW_EX+"no (module) pip install colorama")
 
 def banner():
     
